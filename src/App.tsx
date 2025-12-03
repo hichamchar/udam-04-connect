@@ -21,7 +21,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter basename="/udam-04-connect">
+      <BrowserRouter>
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
